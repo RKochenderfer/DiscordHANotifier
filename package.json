@@ -1,0 +1,36 @@
+{
+  "name": "discordhanotifier",
+  "version": "1.0.0",
+  "description": "A system to send out notifications from Home Assistant over Discord using a Discord Bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKochenderfer/DiscordHANotifier.git"
+  },
+  "author": "Ray Kochenderfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RKochenderfer/DiscordHANotifier/issues"
+  },
+  "homepage": "https://github.com/RKochenderfer/DiscordHANotifier#readme",
+  "dependencies": {
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all",
+    "tabWidth": 4,
+    "useTabs": true,
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
