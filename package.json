@@ -19,7 +19,8 @@
   "homepage": "https://github.com/RKochenderfer/DiscordHANotifier#readme",
   "dependencies": {
     "discord-api-types": "^0.26.1",
-    "discord.js": "^13.6.0"
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2"
   },
   "prettier": {
     "singleQuote": true,
